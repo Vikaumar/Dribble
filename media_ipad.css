@@ -1,0 +1,221 @@
+@media (max-width : 1432px) {
+    #login {
+        margin: 0;
+    }
+
+    .search {
+        width: 200px;
+    }
+}
+
+@media (max-width : 810px) {
+    #login {
+        margin: 0;
+    }
+
+    .search {
+        width: 0%;
+    }
+
+    .nav-part2 {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .search-container {
+        width: 30px;
+    }
+
+    #nav {
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: 600;
+        /* justify-content: space-between;  */
+        position: relative;
+
+    }
+
+    #nav img {
+        width: 70px;
+        /* margin-left: 170px; */
+        position: relative;
+        left: 15%;
+        transform: translate(-30%);
+    }
+
+    .nav-part1 active {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .nav-part2 {
+        width: 30%;
+    }
+
+    #login {
+        display: none;
+    }
+
+    .search-container {
+        width: 700%;
+        position: relative;
+
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 30px;
+        justify-contbnt: center;
+    }
+
+    .footer1 a {
+        padding: 10px;
+
+    }
+
+    #pt3 {
+        padding-left: 0px;
+    }
+
+    .footer2 ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer2 {
+        padding-bottom: 30px;
+    }
+
+    #hii a {
+        padding-left: 20px;
+
+    }
+
+    .out {
+        width: 48%;
+    }
+
+    .nav-part1 {
+        display: none;
+
+        flex-direction: column;
+        transition: max-height 0.3s ease-out;
+        overflow: hidden;
+        max-height: 500px;
+        /* Start with the menu hidden */
+    }
+
+    /* Hamburger and cross icon styles */
+    .hamburger-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .nav-part1.active {
+        display: flex;
+        max-height: 100px;
+        /* Adjust to the height of your menu */
+    }
+
+    /* Transform hamburger icon to a cross */
+    .hamburger-icon.active {
+        transform: rotate(90deg);
+        /* Rotate the hamburger to make a cross */
+    }
+
+    /* Additional styling for cross effect */
+    .hamburger-icon.active:before {
+        content: '\f00d';
+        /* Font Awesome cross icon */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        transform: rotate(0deg);
+        /* Adjust to keep it a cross */
+    }
+
+    .container h1 {
+        padding: 0px 10px;
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+
+    .container h4 {
+        margin-top: 30px;
+        width: 75%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .elem .text-bottom {
+        bottom: 30px;
+    }
+
+    #page2 {
+        top: 150px !important;
+    }
+
+    .page3 {
+        top: 150px;
+    }
+
+    .page4 {
+        top: 150px;
+    }
+
+    #bottom2 {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width : 1080px) {
+    .nav-part1 {
+        width: 30%;
+    }
+
+    .search-container {
+        width: 50%;
+    }
+
+    #page2 {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .out {
+        width: 300px;
+    }
+
+    .footer1 {
+        padding: 0px 20px;
+    }
+
+    #pt2 {
+        padding-left: 35px;
+
+
+    }
+
+    .footer1 a {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    #pt3 {
+        padding-left: 0px;
+    }
+
+
+}
